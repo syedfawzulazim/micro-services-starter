@@ -14,6 +14,8 @@ const PostCreate = () => {
         setTitle('')
     }
 
+    console.log("PostCreate")
+
     return (
         <div>
             <form onSubmit={onSubmitHandler}>
